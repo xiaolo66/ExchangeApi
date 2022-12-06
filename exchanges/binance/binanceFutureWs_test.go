@@ -2,8 +2,8 @@ package binance
 
 import (
 	"fmt"
-	"testing"
 	"github.com/xiaolo66/ExchangeApi"
+	"testing"
 )
 
 var BaFuture = NewFuture(ExchangeApi.Options{
@@ -88,7 +88,7 @@ func handleFutureMsg(msgChan <-chan ExchangeApi.Message) {
 
 func TestBinanceFutureWs_SubscribeOrderBook(t *testing.T) {
 
-	if _, err := BaFuture.SubscribeOrderBook(symbol, 5, 0, true, fmsgChan); err == nil {
+	if _, err := BaFuture.SubscribeOrderBook(symbol, 100, 100, true, fmsgChan); err == nil {
 		handleFutureMsg(fmsgChan)
 	}
 }

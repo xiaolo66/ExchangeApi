@@ -1,8 +1,8 @@
 package binance
 
 import (
-	"testing"
 	"github.com/xiaolo66/ExchangeApi"
+	"testing"
 )
 
 var baFuture = NewFuture(ExchangeApi.Options{
