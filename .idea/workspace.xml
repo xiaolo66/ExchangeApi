@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0ea47409-2c5e-4d76-bbdd-df2c4a6bc4ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/okex/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/okex/model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/okex/okexRest.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/okex/okexRest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/factory/factory.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
