@@ -451,6 +451,6 @@ func (e *HuobiRest) HandleError(request exchanges.Request, response []byte) erro
 	if ok {
 		return ExchangeApi.ExError{Code: errCode, Message: result.Message}
 	} else {
-		return ExchangeApi.ExError{Code: ExchangeApi.UnHandleError, Message: fmt.Sprintf("code:%v msg:%v", result.Code, result.Message)}
+		return ExchangeApi.ExError{Code: ExchangeApi.UnHandleError, Message: fmt.Sprintf("code:%v msg:%v", string(response), result.Message)}
 	}
 }
