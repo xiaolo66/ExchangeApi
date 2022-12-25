@@ -254,8 +254,12 @@ func (e *BinanceRest) FetchBalance() (balances map[string]ExchangeApi.Balance, e
 
 	balances = make(map[string]ExchangeApi.Balance)
 	for _, b := range data.Balances {
-		balance := b.parseBalance()
-		balances[balance.Asset] = balance
+		if SafeParseFloat(b.Available)<ZERO && SafeParseFloat(b.Frozen) <ZERO{
+			continue
+		}else {
+			balance := b.parseBalance()
+			balances[balance.Asset] = balance
+		}
 	}
 	return
 }

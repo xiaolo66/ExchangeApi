@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ea47409-2c5e-4d76-bbdd-df2c4a6bc4ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiRest.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiRest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiWs.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiWs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchanges/binance/binanceRest.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/binance/binanceRest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchanges/binance/binanceRest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/binance/binanceRest_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +49,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Test.TestHuobiRest_CancelOrder in github.com/xiaolo66/ExchangeApi/exchanges/huobi">
-    <configuration name="TestBinance_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestBinanceRest_FetchBalance in github.com/xiaolo66/ExchangeApi/exchanges/binance">
+    <configuration name="TestBinanceRest_FetchBalance in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ExchangeApi" />
       <working_directory value="$PROJECT_DIR$/exchanges/binance" />
       <root_directory value="$PROJECT_DIR$" />
@@ -59,7 +59,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestBinance_SubscribeOrderBook\E$" />
+      <pattern value="^\QTestBinanceRest_FetchBalance\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestHuobiRest_CancelOrder in github.com/xiaolo66/ExchangeApi/exchanges/huobi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinanceRest_FetchBalance in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
         <item itemvalue="Go Test.TestHuobiRest_CancelOrder in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
         <item itemvalue="Go Test.TestHuobiRest_CreateOrder in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
         <item itemvalue="Go Test.TestHuobiRest_FetchBalance in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
         <item itemvalue="Go Test.TestHuobiWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
-        <item itemvalue="Go Test.TestBinance_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
       </list>
     </recent_temporary>
   </component>

@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-var rest = New(ExchangeApi.Options{AccessKey: "R2UqsV4awpcG4wQX83GRYYCSuC4NXspKQPLiIcujTtWLdvIzZcxf61Hi3lhHxy76", SecretKey: "h0glsQ9XAYMB9E09HR2Xtyxyt72STyZZ2Gm8KiKnQnuIMW8DIwujfIGp4OJjiXvJ", PassPhrase: "", ProxyUrl: "http://127.0.0.1:4780"})
+var rest = New(ExchangeApi.Options{AccessKey: "Ml0YqnI7ymdel1F8xAIrM0szIjzlxuFtfKDtcwD32UEr8qx7OzuDzsbH4qExUGyc", SecretKey: "P9DZj9BIpnVK21W9LXDcfnn2bTXL8uKCLfFWbYbpa6CR41l6aEAxUz4Oifnqml9a", PassPhrase: "", ProxyUrl: "http://127.0.0.1:4780"})
 var orderID string
 
 func TestBinanceRest_FetchMarkets(t *testing.T) {
