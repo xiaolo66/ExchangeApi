@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-var huobi = New(ExchangeApi.Options{AccessKey: "4f21c4e5-63e88575-b1rkuf4drg-c846b", SecretKey: "3e1ad08b-ff5a4171-d021a0fb-9943a", ProxyUrl: "http://127.0.0.1:4780"})
+var huobi = New(ExchangeApi.Options{AccessKey: "20fdf4fb-5c28360a-qv2d5ctgbn-3d3a8", SecretKey: "65f50f0e-7a5f6387-7ca98911-ed85c", ProxyUrl: "http://127.0.0.1:4780"})
 
 func TestHuobiRest_FetchTicker(t *testing.T) {
 	ticker, err := huobi.FetchTicker(symbol)
@@ -64,7 +64,7 @@ func TestHuobiRest_FetchBalance(t *testing.T) {
 }
 
 func TestHuobiRest_CreateOrder(t *testing.T) {
-	res, err := huobi.CreateOrder("ETH/USDT", 2000, 0.004, ExchangeApi.Buy, ExchangeApi.LIMIT, ExchangeApi.PostOnly, false)
+	res, err := huobi.CreateOrder("EOS/USDT", 0.5, 20, ExchangeApi.Buy, ExchangeApi.LIMIT, ExchangeApi.PostOnly, false)
 	if err != nil {
 		t.Error(err)
 	}
@@ -72,7 +72,7 @@ func TestHuobiRest_CreateOrder(t *testing.T) {
 }
 
 func TestHuobiRest_CancelOrder(t *testing.T) {
-	err := huobi.CancelOrder("ETH/USDT", "320896557910586")
+	err := huobi.CancelOrder("ETH/USDT", "702143010867965")
 	if err != nil {
 		t.Error(err)
 	}

@@ -207,21 +207,27 @@ type BalanceRes struct {
 func (b BalanceRes) parseBalance() map[string]ExchangeApi.Balance {
 	balances := make(map[string]ExchangeApi.Balance)
 	for _, value := range b.Data.List {
-		currency := strings.ToUpper(value.Currency)
-		var balance ExchangeApi.Balance
-		var ok bool
-		if balance, ok = balances[currency]; !ok {
-			balances[currency] = ExchangeApi.Balance{
-				Asset: strings.ToUpper(currency),
+		if value.Balance!="0"{
+			currency := strings.ToUpper(value.Currency)
+			var balance ExchangeApi.Balance
+			var ok bool
+			if balance, ok = balances[currency]; !ok {
+				balances[currency] = ExchangeApi.Balance{
+					Asset: strings.ToUpper(currency),
+				}
 			}
+			if value.Type == "trade" {
+				balance.Available = SafeParseFloat(value.Balance)
+			}
+			if value.Type == "frozen" {
+				balance.Frozen = SafeParseFloat(value.Balance)
+			}
+			balance.Asset=value.Currency
+			if balance.Available==0&&balance.Frozen==0{
+				continue
+			}
+			balances[currency] = balance
 		}
-		if value.Type == "trade" {
-			balance.Available = SafeParseFloat(value.Balance)
-		}
-		if value.Type == "frozen" {
-			balance.Frozen = SafeParseFloat(value.Balance)
-		}
-		balances[currency] = balance
 	}
 	return balances
 }

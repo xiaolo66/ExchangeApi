@@ -236,7 +236,9 @@ func (e *HuobiRest) FetchBalance() (balances map[string]ExchangeApi.Balance, err
 		err = ExchangeApi.ExError{Code: ExchangeApi.ErrDataParse, Message: err.Error()}
 		return
 	}
+
 	balances = data.parseBalance()
+	fmt.Println(balances)
 	return
 }
 

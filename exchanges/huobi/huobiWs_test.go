@@ -10,7 +10,7 @@ import (
 var (
 	symbol  = "BTC/USDT"
 	symbol1 = "FIL/USDT"
-	e       = New(ExchangeApi.Options{AccessKey: "dqnh6tvdf3-d6158aae-690f264d-ef474", SecretKey: "a5f7a8f5-86220cae-b6d77900-c1a01", AutoReconnect: true, ProxyUrl: "http://127.0.0.1:4780"})
+	e       = New(ExchangeApi.Options{AccessKey: "20fdf4fb-5c28360a-qv2d5ctgbn-3d3a8", SecretKey: "65f50f0e-7a5f6387-7ca98911-ed85c", AutoReconnect: true, ProxyUrl: "http://127.0.0.1:4780"})
 	msgChan = make(ExchangeApi.MessageChan)
 )
 
