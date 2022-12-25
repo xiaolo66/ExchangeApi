@@ -18,7 +18,7 @@ const (
 
 	//exchange api business error
 	ErrExchangeSystem = 20000 + iota
-	ErrDataParse
+	ErrDataParse //add msg
 	ErrAuthFailed
 	ErrRequestParams
 	ErrInsufficientFunds
