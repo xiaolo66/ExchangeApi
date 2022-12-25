@@ -2,10 +2,10 @@ package okex
 
 import (
 	"github.com/xiaolo66/ExchangeApi"
+	. "github.com/xiaolo66/ExchangeApi/utils"
 	"strconv"
 	"strings"
 	"time"
-	."github.com/xiaolo66/ExchangeApi/utils"
 )
 
 

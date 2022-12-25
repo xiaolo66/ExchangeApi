@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ea47409-2c5e-4d76-bbdd-df2c4a6bc4ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/factory.go" beforeDir="false" afterPath="$PROJECT_DIR$/factory/factory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchanges/okex/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/okex/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchanges/okex/okexRest.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/okex/okexRest.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,55 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Test.TestBinanceFutureWs_SubscribeTicker in github.com/xiaolo66/ExchangeApi/exchanges/binance">
-    <configuration name="TestBinanceFutureRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ExchangeApi" />
-      <working_directory value="$PROJECT_DIR$/exchanges/binance" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinanceFutureRest_FetchOrderBook\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinanceFutureWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ExchangeApi" />
-      <working_directory value="$PROJECT_DIR$/exchanges/binance" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinanceFutureWs_SubscribeOrderBook\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinanceFutureWs_SubscribeTicker in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ExchangeApi" />
-      <working_directory value="$PROJECT_DIR$/exchanges/binance" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinanceFutureWs_SubscribeTicker\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestBinanceRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ExchangeApi" />
-      <working_directory value="$PROJECT_DIR$/exchanges/binance" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestBinanceRest_FetchOrderBook\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestHuobiWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi">
     <configuration name="TestBinance_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ExchangeApi" />
       <working_directory value="$PROJECT_DIR$/exchanges/binance" />
@@ -109,13 +62,61 @@
       <pattern value="^\QTestBinance_SubscribeOrderBook\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestHuobiRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeApi" />
+      <working_directory value="$PROJECT_DIR$/exchanges/huobi" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHuobiRest_FetchOrderBook\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHuobiWs_SubscribeKline in github.com/xiaolo66/ExchangeApi/exchanges/huobi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeApi" />
+      <working_directory value="$PROJECT_DIR$/exchanges/huobi" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHuobiWs_SubscribeKline\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHuobiWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeApi" />
+      <working_directory value="$PROJECT_DIR$/exchanges/huobi" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHuobiWs_SubscribeOrderBook\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHuobiWs_SubscribeTicker in github.com/xiaolo66/ExchangeApi/exchanges/huobi" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ExchangeApi" />
+      <working_directory value="$PROJECT_DIR$/exchanges/huobi" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHuobiWs_SubscribeTicker\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBinanceFutureWs_SubscribeTicker in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-        <item itemvalue="Go Test.TestBinanceFutureWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-        <item itemvalue="Go Test.TestBinanceFutureRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
+        <item itemvalue="Go Test.TestHuobiWs_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
         <item itemvalue="Go Test.TestBinance_SubscribeOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
-        <item itemvalue="Go Test.TestBinanceRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/binance" />
+        <item itemvalue="Go Test.TestHuobiRest_FetchOrderBook in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+        <item itemvalue="Go Test.TestHuobiWs_SubscribeTicker in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
+        <item itemvalue="Go Test.TestHuobiWs_SubscribeKline in github.com/xiaolo66/ExchangeApi/exchanges/huobi" />
       </list>
     </recent_temporary>
   </component>
