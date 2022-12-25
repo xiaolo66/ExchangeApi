@@ -13,10 +13,10 @@ const (
 	MsgPositions
 	MsgMarkPrice
 
-	MsgReConnected
-	MsgDisConnected
-	MsgClosed
-	MsgError
+	MsgReConnected //重新建立连接
+	MsgDisConnected//网络连接已断开
+	MsgClosed //连接已关闭
+	MsgError//发生了某种错误
 )
 
 type Message struct {

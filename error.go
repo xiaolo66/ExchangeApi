@@ -14,23 +14,23 @@ func (e ExError) Error() string {
 
 const (
 	NotImplement = 10000 + iota
-	UnHandleError
+	UnHandleError //未被捕获的错误
 
 	//exchange api business error
-	ErrExchangeSystem = 20000 + iota
-	ErrDataParse //add msg
-	ErrAuthFailed
+	ErrExchangeSystem = 20000 + iota //交易所系统出现错误
+	ErrDataParse //解析错误
+	ErrAuthFailed //鉴权错误
 	ErrRequestParams
-	ErrInsufficientFunds
-	ErrInvalidOrder
-	ErrInvalidAddress
-	ErrOrderNotFound
+	ErrInsufficientFunds //资产不足错误
+	ErrInvalidOrder //无效的订单
+	ErrInvalidAddress //无效的地址
+	ErrOrderNotFound //未发现订单
 	ErrNotFoundMarket
 	ErrChannelNotExist
 	ErrInvalidDepth // recv dirty order book data
 
 	//network error
-	ErrDDoSProtection = 30000 + iota
+	ErrDDoSProtection = 30000 + iota //发生限频错误
 	ErrTimeout
 	ErrBadRequest
 	ErrBadResponse

@@ -32,6 +32,7 @@ func (e *BinanceRest) Init(option ExchangeApi.Options) {
 		20006: RawError{Code: ExchangeApi.ErrInsufficientFunds, Message: ""},
 		-2013: RawError{Code: ExchangeApi.ErrOrderNotFound, Message: ""},
 		-2011: RawError{Code: ExchangeApi.ErrOrderNotFound, Message: "Unknown order sent."},
+		-1003:RawError{Code: ExchangeApi.ErrDDoSProtection,Message: ""},
 	}
 
 	if e.Option.RestHost == "" {
