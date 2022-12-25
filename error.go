@@ -20,6 +20,7 @@ const (
 	ErrExchangeSystem = 20000 + iota //交易所系统出现错误
 	ErrDataParse //解析错误
 	ErrAuthFailed //鉴权错误
+	ErrAccountFailed //账户问题
 	ErrRequestParams
 	ErrInsufficientFunds //资产不足错误
 	ErrInvalidOrder //无效的订单
