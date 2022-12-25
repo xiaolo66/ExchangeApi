@@ -238,7 +238,6 @@ func (e *HuobiRest) FetchBalance() (balances map[string]ExchangeApi.Balance, err
 	}
 
 	balances = data.parseBalance()
-	fmt.Println(balances)
 	return
 }
 

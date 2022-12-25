@@ -7,9 +7,7 @@
     <list default="true" id="0ea47409-2c5e-4d76-bbdd-df2c4a6bc4ee" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiRest.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiRest.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiRest_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiRest_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiWs_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiWs_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exchanges/huobi/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchanges/huobi/huobiWs.go" beforeDir="false" afterPath="$PROJECT_DIR$/exchanges/huobi/huobiWs.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

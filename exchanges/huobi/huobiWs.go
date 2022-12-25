@@ -486,7 +486,6 @@ func (e *HuobiWs) sign(timeNow string) (string, error) {
 	plainText += "api.huobi.pro\n"
 	plainText += "/ws/v2\n"
 	plainText += payload
-	println(plainText)
 	signature, err := HmacSign(SHA256, plainText, e.Option.SecretKey, true)
 	if err != nil {
 		return "", err
